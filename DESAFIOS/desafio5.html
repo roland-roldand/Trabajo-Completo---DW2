@@ -1,0 +1,90 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Quinto Desafio</title>
+
+    <!--BOOTSTRAP-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+</head>
+
+<body>
+
+    <header>
+        <div> <!--  NAV FLAMA DE BOOTSTRAP -->
+            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+
+                <div class="container-fluid">
+
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+
+                    <span class="navbar-toggler-icon"></span>
+
+                  </button>
+
+                  <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                        </li>
+
+                      <li class="nav-item">
+                        <a class="nav-link" href="./Historia.html">Sobre nosotros</a>
+                      </li>
+
+                      <li class="nav-item">
+                        <a class="nav-link" href="../02.Desafios/DESAFIOS.html">Desafios</a>
+                      </li>
+                      
+                    </ul>
+                  </div>
+                </div>
+            </nav>
+
+        </div>
+        
+        <h3> Desafio Cinco </h3>
+        <div><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus, aut!</p></div>
+
+
+
+    </header>
+
+    <section>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda error amet, magni tenetur fuga excepturi ratione itaque aliquid voluptas aspernatur. Quibusdam, veniam quos eius maxime distinctio dolor reiciendis, expedita sed repellendus, placeat delectus doloribus non culpa ex quam eaque ducimus.</p>
+    </section>
+    
+    <script>
+
+        // Define el array de productos con corchetes []
+        const productos = ["General Electric F110", "Pratt & Whitney F100", "Estabilizador horizontal", "Cañón interno M61 Vulcan"];
+
+        console.log(productos);
+
+        // Corrección en el acceso al índice de los productos
+        for (let i = 0; i < productos.length; i++) {
+            console.log(`Producto ${i + 1} = ${productos[i]}`);
+        }
+
+        // Usa pop para eliminar el último producto y mostrarlo
+        let ProductoVendido = productos.pop();
+        console.log(`Se vendió ${ProductoVendido}`);
+
+        // Imprime nuevamente el array después de la venta
+        for (let i = 0; i < productos.length; i++) {
+            console.log(`Producto ${i + 1} = ${productos[i]}`);
+        }
+
+    </script>
+
+
+    <!-- conexiones--->
+    <script src="./0.assets/main.js"></script>
+    <script src="./0.js/index.js"></script>
+</body>
+</html>
